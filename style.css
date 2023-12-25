@@ -1,9 +1,11 @@
 body {
-    font-family: "Lato";
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
     background-color: rgb(44, 62, 80);
+    display: flex;
 }
 
 .navbar-brand {
@@ -100,4 +102,12 @@ span {
     text-align: center;
     padding-left: 50px;
     padding-top: 20px;
+}
+
+.footer div {
+    color: #fff;
+    background-color: rgb(28, 40, 52);
+    width: auto;
+    padding: 25px;
+    text-align: center;
 }
